@@ -1,0 +1,267 @@
+<!-- I declare that this code was written by me. 
+ I will not copy or allow others to copy my code. 
+ I understand that copying code is considered as plagiarism.
+ 
+ Student Name: Aricia Wong 
+ Student ID: 22036221
+ Class:E63D
+ Date/Time Last modified: 14 August 2023 , 20:00  -->
+ 
+<!DOCTYPE html>
+<html>
+<title>Confirmation payment page</title>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.bundle.min.js">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <style>
+        * {
+            box-sizing: border-box;
+            font-size: 100%;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body {
+            width: 90%;
+            margin: 0 auto;
+
+        }
+
+        header {
+            margin-top: 20px;
+            background-color: grey;
+        }
+
+        .logo {
+            width: 50px;
+            height: 50px;
+            text-align: center;
+        }
+
+        .logo1 {
+            width: 50px;
+            height: 50px;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+        .topnav a {
+            float: right;
+            padding: 14px 16px;
+            font-size: 17px;
+        }
+
+        .topnav a.active {
+            color: black;
+        }
+
+        .confirmation {
+            text-align: center;
+            font-size: large;
+        }
+
+        .method p {
+            text-align: left;
+        }
+
+        /* total bill */
+        .col-8 {
+            left: 119px;
+        }
+
+        .endamount {
+            text-align: left;
+        }
+
+        /* voucher */
+        .red {
+            text-align: right;
+            color: red;
+        }
+
+        .btn {
+            background-color: #04AA6D;
+            color: white;
+            padding: 12px;
+            margin: 10px 0;
+            border: none;
+            width: 100%;
+            border-radius: 3px;
+            cursor: pointer;
+            font-size: 17px;
+        }
+
+        .btn:hover {
+            background-color: #45a049;
+        }
+
+        .footer-basic {
+            padding: 40px 0;
+            background-color: #ffffff;
+            color: #4b4c4d;
+        }
+
+        .footer-basic ul {
+            padding: 0;
+            list-style: none;
+            text-align: center;
+            font-size: 18px;
+            line-height: 1.6;
+            margin-bottom: 0;
+        }
+
+        .footer-basic li {
+            padding: 0 10px;
+        }
+
+        .footer-basic ul a {
+            color: inherit;
+            text-decoration: none;
+            opacity: 0.8;
+        }
+
+        .footer-basic ul a:hover {
+            opacity: 1;
+        }
+
+        .footer-basic .social {
+            text-align: center;
+            padding-bottom: 25px;
+        }
+
+        .footer-basic .social>a {
+            font-size: 24px;
+            width: 40px;
+            height: 40px;
+            line-height: 40px;
+            display: inline-block;
+            text-align: center;
+            border-radius: 50%;
+            border: 1px solid #ccc;
+            margin: 0 8px;
+            color: inherit;
+            opacity: 0.75;
+        }
+
+        .footer-basic .social>a:hover {
+            opacity: 0.9;
+        }
+
+        .footer-basic .copyright {
+            margin-top: 15px;
+            text-align: center;
+            font-size: 13px;
+            color: #aaa;
+            margin-bottom: 0;
+        }
+    </style>
+
+
+
+</head>
+<title>Confirmation Page</title>
+
+<body>
+
+    <header>
+        <div class="topnav">
+            <a class="active" href="index.html">Home</a>
+        </div>
+        <div class="row">
+            <div class="logo-row">
+                <h2><img src="Logo.jpg" alt="logo" class="logo">HeavenNet</h2>
+            </div>
+        </div>
+    </header>
+
+
+
+
+    <hr>
+    <div class="confirmation">
+        <p><b>Transaction details</b></p>
+
+        <div class="brand">
+            <img src="image3.png" alt="success" class="logo1">
+        </div>
+
+        <div class="brandname">
+            <p>Your future payments will be auto-deducted monthly.</p>
+        </div>
+
+        <hr>
+
+        <!-- total bill -->
+        <div class="bg-light rounded d-flex flex-column">
+            <div class="sephora">
+                <h4>adidas</h4>
+                <h6>order id:3832140367</h6>
+            </div>
+            <div class="border-top px-4 mx-3"></div>
+            <div class="p-2 d-flex pt-3">
+                <div class="date">3 May 2021</div>
+                <div class="col-8">Today's Payment</div>
+                <div class="ml-auto">$50.00</div>
+            </div>
+            <div class="border-top px-4 mx-3">
+            </div>
+            <div class="p-2 d-flex pt-3">
+                <div class="date">3 Jun3 2021</div>
+                <div class="col-8">Monthly payment</div>
+                <div class="ml-auto">$38.00</div>
+            </div>
+
+            <div class="border-top px-4 mx-3"></div>
+            <div class="p-2 d-flex pt-3">
+                <div class="date">3 July 2021</div>
+                <div class="col-8">Monthly payment</div>
+                <div class="ml-auto"><b>$25.00</b></div>
+            </div>
+
+            <div class="border-top px-4 mx-3"></div>
+            <div class="p-2 d-flex pt-3">
+                <div class="endamount"><b>Total Amount</b></div>
+                <div class="ml-auto"><b class="green">$113.00</b></div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+
+
+    <!-- voucher -->
+    <div class="border-top px-4 mx-3"></div>
+    <div class="p-2 d-flex pt-3">
+        <div class="endamount"><b>Voucher/Points</b></div>
+        <div class="ml-auto"><b class="red">1 applied -$20.00</b></div>
+    </div>
+
+    <br>
+    <br>
+
+    <!-- responsive button -->
+    <form method="post" action="index.html">
+        <input type="submit" value="Ok" class="btn">
+    </form>
+
+    <!-- Site footer -->
+    <div class="footer-basic">
+        <footer>
+            <div class="social"><a href="#"><i class="icon ion-social-instagram"></i></a><a href="#"><i
+                        class="icon ion-social-snapchat"></i></a><a href="#"><i
+                        class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-facebook"></i></a>
+                        <p class="copyright">HeavenNet © 2023</p>
+            </div>
+        </footer>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

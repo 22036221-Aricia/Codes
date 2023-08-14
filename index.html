@@ -1,0 +1,209 @@
+ <!-- I declare that this code was written by me.
+ I will not copy or allow others to copy my code. 
+ I understand that copying code is considered as plagiarism.
+ 
+ Student Name: Aricia Wong 
+ Student ID: 22036221
+ Class:E63D
+ Date/Time Last modified: 14 August 2023 , 20:00 
+  -->
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home page</title>
+  <!--bookstrap for android like icons-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <style>
+    body {
+      max-width: 90%;
+      margin: 0 auto;
+      overflow-x: hidden;
+    }
+
+    header {
+      margin-top: 20px;
+      background-color: grey;
+    }
+
+    .logo {
+      width: 50px;
+      height: 50px;
+    }
+    /* styling for nav bar*/
+    .navbar {
+      overflow: hidden;
+      background-color: darkorange ;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .navbar a {
+      float: left;
+      font-size: 16px;
+      color: black;
+      text-align: center;
+      padding: 14px 16px;
+    }
+
+   /* button to be the color blue when pointed at */
+    .navbar a:hover,
+    .dropdown:hover .dropbtn {
+      background-color: rgb(110, 110, 242);
+    }
+
+/* the boarder for my pictures */
+    .column {
+      max-width:1200px;
+      margin: 0 auto;
+      padding:20px;
+      box-sizing: border-box;
+    }
+
+
+    /* Header/logo Title */
+    .header {
+      padding: 35px;
+      text-align: center;
+      /* background:rgb(255, 0, 183); */
+      background-image: url("background.jpg");
+      background-repeat: no-repeat;
+      background-size: 1290px 200px;
+      color: black;
+
+    }
+    
+    .footer-basic {
+      padding: 40px 0;
+      background-color: #ffffff;
+      color: #4b4c4d;
+    }
+
+    .footer-basic ul { 
+      font-size: 18px;
+      margin-bottom: 0;
+    }
+
+    .footer-basic ul a {
+      color: inherit;
+      text-decoration: none;
+      opacity: 0.8;
+    }
+
+    .footer-basic ul a:hover {
+      opacity: 1;
+    }
+
+    .footer-basic .social>a {
+      font-size: 24px;
+      width: 40px;
+      height: 40px;
+      line-height: 40px;
+      display: inline-block;
+      text-align: center;
+      border-radius: 50%;
+      border: 1px solid #ccc;
+      margin: 0 8px;
+      color: inherit;
+      opacity: 0.75;
+    }
+
+    .footer-basic .social>a:hover {
+      opacity: 0.9;
+    }
+
+    .footer-basic .copyright {
+      margin-top: 15px;
+      text-align: center;
+      font-size: 13px;
+      color: #aaa;
+      margin-bottom: 0;
+    }
+  </style>
+
+</head>
+<title>HeavenNet</title>
+
+<body>
+  <header>
+    <div class="row">
+      <div class="logo-row">
+        <h2 style="position: relative; left: 15px;"><img src="Logo.jpg" alt="logo" class="logo">HeavenNet</h2>
+      </div>
+    </div>
+  </header>
+
+  <div class="navbar">
+    <b><a href="index.html">Home</a></b>
+    <b><a href="productpage.html"p>Stores</a></b>
+
+    <b><a href="registerpage.html" class="right">Sign up</a></b>
+    <b><a href="LoginPage.html" class="right">Log in</a></b>
+    <b><a href="paymentpage.html" class="right">Cart</a></b>
+
+  </div>
+
+  <div class="header">
+    <h1>Pay with no worry</h1>
+    <p>We make payments easier and more afforable </p>
+  </div>
+
+  <!-- Step by step -->
+  <hr>
+  <hr>
+  <div class="row" style="position: relative; left: 20px;">
+    <div class="column" style="background-color:#ffe17d; width:380px;" >
+      <h2 style="position: relative; left: 140px;">Step 1</h2>
+      <img src="bag.jpg" width="130" height="130"style="position: relative; left: 120px;">
+      <b>
+        <p style="position: relative; left: 120px;">Shop online or at your<br>favourite store.<br></p>
+      </b>
+    </div>
+
+    <div class="column" style="background-color:	#ffe17d; width:380px">
+      <h2 style="position: relative; left: 140px;">Step 2</h2>
+      <img src="shoppingcart.jpg" width="130" height="130" style="position: relative; left: 120px;">
+      <b>
+        <p style="position: relative; left: 120px;">Select HeavenNet<br>at checkout</p>
+      </b>
+    </div>
+
+    <div class="column" style="background-color:#ffe17d; width:380px">
+      <h2 style="position: relative; left: 140px;">Step 3</h2>
+      <img src="image3.png" width="130" height="130" style="position: relative; left: 120px;">
+      <b>
+        <p style="position: relative; left: 120px;">Complete your<br>order!<br></p>
+      </b>
+
+    </div>
+
+  <!--Info -->
+  <br>
+  <hr>
+  <p>Shop at your favorite stores—in our app,
+    at your local mall, or anywhere online then, checkout with HeavenNet. From finding what you love, to paying over time,
+    we make every step smooth.</p>
+  <ul>
+      <li>Pay in 3 at any online store</li>
+      <li>There will be no interests</li>
+      <li>Complete your payment smoothly</li>
+  </ul>
+  <br>
+  <hr>
+  <!-- Site footer -->
+  <div class="footer-basic">
+    <footer>
+      <div class="social"><a href="#"><i class="icon ion-social-instagram"></i></a><a href="#"><i
+            class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a
+          href="#"><i class="icon ion-social-facebook"></i></a></div>
+      <p class="copyright">HeavenNet © 2023</p>
+    </footer>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

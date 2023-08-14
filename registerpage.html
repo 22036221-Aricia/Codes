@@ -1,0 +1,196 @@
+<!-- I declare that this code was written by me. 
+ I will not copy or allow others to copy my code. 
+ I understand that copying code is considered as plagiarism.
+ 
+ Student Name: Aricia Wong 
+ Student ID: 22036221
+ Class:E63D
+ Date/Time Last modified: 14 August 2023 , 20:00  -->
+ 
+<!DOCTYPE html>
+<html>
+<title> Register Page </title>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <style>
+    Body {
+      font-size: 100%;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    header {
+      margin-top: 20px;
+      background-color: grey;
+    }
+
+    .logo {
+      width: 50px;
+      height: 50px;
+      text-align: center;
+    }
+
+    .topnav a {
+      float: right;
+      padding: 14px 16px;
+      font-size: 17px;
+    }
+
+    .topnav a.active {
+      color: black;
+    }
+
+    .confirmation {
+      text-align: center;
+      font-size: large;
+    }
+
+    button {
+      background-color: #04AA6D;
+      width: 100%;
+      color: black;
+      padding: 15px;
+      margin: 10px 0px;
+      border: none;
+      cursor: pointer;
+    }
+
+    input[type=text],
+    input[type=password] {
+      width: 100%;
+      margin: 8px 0;
+      padding: 12px 20px;
+      display: inline-block;
+      border: 2px solid black;
+      box-sizing: border-box;
+    }
+
+    button:hover {
+      opacity: 0.7;
+    }
+
+    .container {
+      padding: 25px;
+      background-color: lightgrey;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+    }
+
+    .footer-basic {
+      padding: 40px 0;
+      background-color: #ffffff;
+      color: #4b4c4d;
+    }
+
+    .footer-basic ul {
+      padding: 0;
+      list-style: none;
+      text-align: center;
+      font-size: 18px;
+      line-height: 1.6;
+      margin-bottom: 0;
+    }
+
+    .footer-basic ul a {
+      color: inherit;
+      text-decoration: none;
+      opacity: 0.8;
+    }
+
+    .footer-basic ul a:hover {
+      opacity: 1;
+    }
+
+    .footer-basic .social {
+      text-align: center;
+      padding-bottom: 25px;
+    }
+
+    .footer-basic .social>a {
+      font-size: 24px;
+      width: 40px;
+      height: 40px;
+      line-height: 40px;
+      display: inline-block;
+      text-align: center;
+      border-radius: 50%;
+      border: 1px solid #ccc;
+      margin: 0 8px;
+      color: inherit;
+      opacity: 0.75;
+    }
+
+    .footer-basic .social>a:hover {
+      opacity: 0.9;
+    }
+
+    .footer-basic .copyright {
+      margin-top: 15px;
+      text-align: center;
+      font-size: 13px;
+      color: #aaa;
+      margin-bottom: 0;
+    }
+  </style>
+</head>
+
+
+<body>
+  <header>
+    <div class="topnav">
+      <a class="active" href="index.html">Home</a>
+    </div>
+
+    <div class="row">
+      <div class="logo-row">
+        <h2><img src="Logo.jpg" alt="logo" class="logo">HeavenNet</h2>
+      </div>
+    </div>
+  </header>
+
+  <hr>
+
+  <div class="confirmation">
+    <p><b> Register an account </b></p>
+    <hr>
+    <br>
+
+    <form>
+      <div class="container">
+
+
+        <label>Username : </label>
+        <input type="text" placeholder="Enter new Username" name="username" required>
+        <label>Password : </label>
+        <input type="password" placeholder="Enter Password" name="password" required>
+        <label>Repeat Password : </label>
+        <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+
+        <p> <input type="checkbox" checked="checked">By creating an account you agree to our <a href="#">Terms &
+            Privacy</a>.</p>
+        <a href='productpage.html'>
+          <button type="button" class="button">Sign up</button> </a>
+        <div class="container signin">
+          <p>Already have an account? <a href="loginpage.html">Sign in</a>.</p>
+        </div>
+      </div>
+    </form>
+    <!-- Site footer -->
+    <div class="footer-basic">
+      <footer>
+        <div class="social"><a href="#"><i class="icon ion-social-instagram"></i></a><a href="#"><i
+              class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a
+            href="#"><i class="icon ion-social-facebook"></i></a></div>
+            <p class="copyright">HeavenNet © 2023</p>
+      </footer>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
